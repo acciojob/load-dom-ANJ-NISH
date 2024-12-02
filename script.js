@@ -3,7 +3,5 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 	let body=document.getElementById("my-body");
 
-	const text=document.createTextNode("DOM load success");
-
-	body.insertAdjacentElement('afterbegin',text);
+	body.insertAdjacentText('afterbegin',"DOM load success");
 })
