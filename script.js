@@ -5,5 +5,5 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 	const text=document.createTextNode("DOM load success");
 
-	body.appendChild(text);
+	body.insertAdjacentElement('afterbegin',text);
 })
